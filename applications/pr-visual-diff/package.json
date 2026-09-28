@@ -1,0 +1,26 @@
+{
+  "name": "solari-pr-visual-diff",
+  "private": true,
+  "type": "module",
+  "description": "Build both sides of a PR in Solari sandboxes, screenshot every route x viewport in cloud browsers, and diff them.",
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "test": "tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@solarisdk/browser": "^0.1.5",
+    "@solarisdk/sdk": "^0.1.4",
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/pngjs": "^6.0.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -40,3 +40,4 @@ variable it reads and nothing else.
 | Application | Language | What it does |
 | --- | --- | --- |
 | [worldline](worldline) | Python | Snapshot-branch competing plans, verify their artifacts, and replay only the winner |
+| [pr-visual-diff](pr-visual-diff) | TypeScript | Build both sides of a PR in one sandbox, screenshot every route × viewport in parallel browsers, and diff them |
